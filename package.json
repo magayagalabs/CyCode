@@ -1,0 +1,23 @@
+{
+  "name": "cycode",
+  "version": "1.0.0",
+  "description": "Source-code editor",
+  "main": "emmet.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magayaga/CyCode.git"
+  },
+  "keywords": [
+    "npm",
+    "search"
+  ],
+  "author": "Cyril John Magayaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magayaga/CyCode/issues"
+  },
+  "homepage": "https://github.com/magayaga/CyCode#readme"
+}

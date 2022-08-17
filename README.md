@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h3 align="center">Vancely Muse</h3>
+<h3 align="center">CyCode</h3>
 
 <h4 align="center">CyCode (formerly known as Studios Code) is a source code editor with a primary focus on web development.  It is written in HTML, CSS, and JavaScript.</h4>
 

@@ -9,7 +9,7 @@
 <h5 align="center">CyCode (formerly known as Studios Code and the word being a portmanteau of "Cyril Code") is a code editor with a primary focus on web development.</h5>
 
 ## CyCode
-CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`index.html`](./src/cycode.html).
+CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`cycode.html`](./src/cycode.html).
 
 ## License
 Copyright ©2021-2022 Cyril John Magayaga. All rights reserved.

@@ -4,12 +4,14 @@
   </a>
 </p>
 
-<h3 align="center">CyCode</h3>
+<h1 align="center">CyCode</h1>
 
-<h4 align="center">CyCode (formerly known as Studios Code) is a source code editor with a primary focus on web development.  It is written in HTML, CSS, and JavaScript.</h4>
+<h5 align="center">CyCode (formerly known as Studios Code and the word being a portmanteau of "Cyril Code") is a code editor with a primary focus on web development.</h5>
 
-**Themes:**
-| Color | Release Date |
-|:-:|:-:|
-| Black & White Mode | December 23, 2021 - present |
-| Light Mode | January 4, 2022 - July 20, 2022 |
+## CyCode
+CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`index.html`](./src/index.html).
+
+## License
+Copyright ©2021-2022 Cyril John Magayaga. All rights reserved.
+
+Licensed under the [MIT](LICENSE) license.

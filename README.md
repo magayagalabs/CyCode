@@ -11,6 +11,12 @@
 ## CyCode
 CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`cycode.html`](./src/cycode.html). The August 20, 2022 was first new **_Redesign_** and **beautiful** code editor in the Philippines.
 
+## Electron
+CyCode was upcoming desktop application on **December 22, 2022**.
+```
+npm run cycode
+```
+
 ## License
 Copyright ©2021-2022 Cyril John Magayaga. All rights reserved.
 

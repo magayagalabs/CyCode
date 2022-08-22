@@ -24,6 +24,24 @@ CyCode was upcoming desktop application on **December 22, 2022**.
 npm run cycode
 ```
 
+<h2>
+    <img src="images/Typescript_logo_2020.svg" width="25" height="25"> Vanilla TypeScript
+</h2>
+
+CyCode Documentations & History:
+
+change directory and npm:
+```powershell
+C:\CyCode> cd docs\vanilla-typescript
+C:\CyCode\docs\vanilla-typescript> npm run start
+```
+
+npm:
+
+```
+npm run start
+```
+
 ## License
 Copyright ©2021-2022 Cyril John Magayaga. All rights reserved.
 

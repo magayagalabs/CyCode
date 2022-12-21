@@ -18,7 +18,7 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
     <img src="images/Electron_Software_Framework_Logo.svg" width="25" height="25"> Electron
 </h2>
 
-CyCode was upcoming desktop application on **December 22, 2022**.
+Now, **CyCode** is new electron desktop application.
 
 ```
 npm run cycode

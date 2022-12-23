@@ -24,6 +24,12 @@ Now, **CyCode** is new electron desktop application.
 npm run cycode
 ```
 
+Now, download the **CyCode** on electron desktop application.
+
+```
+npm run download
+```
+
 <h2>
     <img src="images/Typescript_logo_2020.svg" width="25" height="25"> Vanilla TypeScript
 </h2>

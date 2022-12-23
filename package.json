@@ -84,6 +84,7 @@
     "start": "parcel cycode.html --open",
     "build": "parcel build cycode.html",
     "cycode": "electron .",
+    "download": "electron-packager .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cyril John Magayaga <cjmagayaga957@gmail.com, cyrilmagayaga@proton.me> (https://github.com/magayaga)",

@@ -2,7 +2,7 @@
   "name": "cycode",
   "version": "1.0.0",
   "description": "This is source-code editor",
-  "main": "preview-src/index.html",
+  "main": "src/english/index.html",
   "dependencies": {
     "boolean": "^3.2.0",
     "buffer-crc32": "^0.2.13",

@@ -49,6 +49,6 @@ npm run start
 ```
 
 ## License
-Copyright ©2021-2022 Cyril John Magayaga. All rights reserved.
+Copyright ©2021-2023 Cyril John Magayaga. All rights reserved.
 
 Licensed under the [MIT](LICENSE) license.

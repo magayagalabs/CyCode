@@ -1,0 +1,115 @@
+<!--
+    CyCode (v1.0.1)
+    Copyright (c) 2023 Cyril John Magayaga
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CyCode</title>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+
+            .cyflex-body {
+                height: 100vh;
+                display: flex;
+                border-top: 0.25px solid #66595C
+            }
+            
+            .text-area {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                border-right: 0.25px solid #555;
+            }
+            
+            .text-area textarea {
+                resize: none;
+                outline: none;
+                width: 100%;
+                height: 33.33%;
+                font-size: 18px;
+                padding: 10px;
+                font-family: 'IBM Plex Mono';
+            }
+            
+            .preview-area {
+                width: 50%;
+                display: flex;
+            }
+            
+            .preview-area iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+            
+            .cyflex-biggest {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .topnav {
+                background-color: white;
+                overflow: hidden;
+            }
+            
+            .topnav a {
+                float: left;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            
+            .topnav a:hover {
+                background-color: #474042;
+                color: white;
+            }
+            
+            .topnav a.active {
+                background-color: #66595C;
+                color: white;
+            }
+            
+            .cyflex-border {
+                border-top: 0.25px solid #66595C;
+            }
+            
+            table {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <div class="cyflex-biggest">
+            <div class="cyflex-body">
+                <div class="text-area">
+                    <textarea title="HyperText Markup Language or HTML" oninput="showPreview()" placeholder="HTML" id="htmlCode"></textarea>
+                    <textarea title="Cascading Style Sheets or CSS" oninput="showPreview()" placeholder="CSS" id="cssCode"></textarea>
+                    <textarea title="JavaScript" oninput="showPreview()" placeholder="JavaScript" id="jsCode"></textarea>
+                </div>
+                <div class="preview-area">
+                    <iframe id="preview-window" title="Preview Live"></iframe>
+                </div>
+            </div>
+        </div>
+        <script>
+            function showPreview(){
+                var htmlCode = document.getElementById("htmlCode").value;
+                var cssCode = "<style>"+document.getElementById("cssCode").value+"</style>";
+                var jsCode = "<scri"+"pt>"+document.getElementById("jsCode").value+"</scri"+"pt>";
+                var frame = document.getElementById("preview-window").contentWindow.document;
+                frame.open();
+                frame.write(htmlCode+cssCode+jsCode);
+                frame.close();
+            }
+        </script>
+    </body>
+</html>

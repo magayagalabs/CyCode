@@ -1,6 +1,6 @@
 {
   "name": "cycode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is source-code editor",
   "main": "index.js",
   "dependencies": {
@@ -52,7 +52,6 @@
     "object-keys": "^1.1.1",
     "once": "^1.4.0",
     "p-cancelable": "^1.1.0",
-    "parcel-bundler": "^1.12.5",
     "pend": "^1.2.0",
     "pify": "^3.0.0",
     "prepend-http": "^2.0.0",

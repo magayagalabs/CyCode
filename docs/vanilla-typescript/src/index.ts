@@ -22,7 +22,6 @@
  // Cyflex second paragraph & pictures
  document.getElementById("cyflex-second").innerHTML = `
  <div class="cyflex-paragraph">
-    <p><b><i>Upcoming products: </i></b><b>CyCode Studio</b> & <b>CyWrite</b> in September 5, 2022, <b>CyCode for Python</b> & <b>CyCode for Node.js</b> in October 5, 2022, <b>CyCharm</b> in December 22, 2022, and <b>CyRider</b> in December 10, 2025.</p>
     <p><b><i>Current products: </i></b><b>Weaver</b> (Discontinued), and <b>CyCode</b> (Active)</p>
  </div>
  `;

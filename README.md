@@ -47,6 +47,13 @@ npm:
 ```
 npm run start
 ```
+## 📦 Installing
+You can install this package with `npm`.
+
+
+```
+npm install
+```
 
 ## License
 Copyright ©2021-2023 Cyril John Magayaga. All rights reserved.

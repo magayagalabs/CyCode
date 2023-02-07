@@ -1,6 +1,6 @@
 /**
  * Copyright 2021-2023 Cyril John Magayaga
- * CyCode (v1.0.1) - First Desktop Application
+ * CyCode (v1.0.2) - First Desktop Application
  */
 
 // npm install electron

@@ -34,19 +34,12 @@ npm run download
     <img src="images/Typescript_logo_2020.svg" width="25" height="25"> Vanilla TypeScript
 </h2>
 
-CyCode Documentations & History:
-
-change directory and npm:
-```powershell
-C:\CyCode> cd docs\vanilla-typescript
-C:\CyCode\docs\vanilla-typescript> npm run start
+Change directory and npm:
+```bash
+$ cd docs\vanilla-typescript
+$ npm run start
 ```
 
-npm:
-
-```
-npm run start
-```
 ## 📦 Installing
 You can install this package with `npm`.
 

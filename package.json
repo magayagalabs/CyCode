@@ -1,6 +1,6 @@
 {
   "name": "cycode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is source-code editor",
   "main": "index.js",
   "dependencies": {

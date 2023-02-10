@@ -14,7 +14,11 @@ const createWindow = () => {
     // Dimensions
     width: 850,
     height: 600,
+
   });
+
+  // Menubar is hidden
+  win.setMenuBarVisibility(false);
 
   // First English language of the CyCode
   win.loadFile('./src/english/cycode.html');

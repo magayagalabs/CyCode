@@ -4,25 +4,105 @@
  */
 
  import "./styles.css";
+ import "./script.js";
 
  // Cyflex first paragraph and logo
  document.getElementById("cyflex-first").innerHTML = `
- <div class="cyflex-text">
-    <h1>Hello, Welcome to the CyCode!</h1>
- </div>
- <div class="cyflex-paragraph">
-    <p><b>CyCode</b> (also known as "<b>Cyril Code</b>" and formerly known as <b>Studios Code</b>) is a code editor for web development created and developed by <a href="https://github.com/Magayaga">Cyril John Magayaga</a>. It is the written in <b>HTML</b> standard markup language, <b>CSS</b> stylesheet languages, and <b>JavaScript</b> programming language.</p> <p>It is the first <b>family of the edit editors</b> in the <b>Philippines</b> (or <b>about this world</b>), like source-code editors, code editors, text editors, IDE or integrated development environments, document editors, rich text editors, WYSIWYG editors, and more. <b>CyCode</b> was released on December 23, 2021 in Quezon City, Metro Manila, Philippines by Cyril John Magayaga.</p>
-    <p><b>Weaver</b> is a best known for the Cyril John Magayaga's creating <b>first text editor</b>, after discontinued text editor and failed building web application. It is the history of the <b>Weaver & CyCode</b>:</p>
- </div>
- <div class="cyflex-paragraph">
-    <p><b>CyCode Family</b> is a all text editors written in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>Java</b>, <b>Python</b>, <b>Rust</b>, <b>Less</b>, <b>Scss</b>, <b>CoffeeScript</b>, <b>C#</b>, <b>Visual Basic .NET</b>, <b>C++</b>, and more programming languages.</p>
- </div>
+ <h1 style="text-align: center; padding-top: 12px; padding-bottom: 12px;"><b>CyCode: Official Documentation</b></h1>
+ <p style="padding-left: 10px; padding-right: 10px; text-align: justify;"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v1.0.3</b> <b>(February 12, 2023)</b>.</p>
  `;
  
  // Cyflex second paragraph & pictures
  document.getElementById("cyflex-second").innerHTML = `
- <div class="cyflex-paragraph">
-    <p><b><i>Current products: </i></b><b>Weaver</b> (Discontinued), and <b>CyCode</b> (Active)</p>
+ <div style="padding-left: 10px; padding-right: 10px; padding-bottom: 20px;">
+ <div class="container text-center">
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.1.0 / December 23, 2021</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">New first code editor and A preview build was released shortly thereafter. (<u>Initial release</u> & First Alpha release)</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.2.0 / December 25, 2021</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating software development tool and HTML editor.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.3.0 / December 26, 2021</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">New Javascript frameworks on <code>FileSaver.js</code> and <code>jscode.min.js</code>, and New <code>world-studios-code.html</code>.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.4.0 / January 4, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">New <b>Light Mode</b>.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.4.1 / January 27, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Fixed the <code>editor.html</code> on original (dark) or light mode.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.4.2 / July 21, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col"><b>Studios Code</b> was renamed to <b>CyCode</b> like new logo, and <code>Filesaver.js</code> was renamed to <code>saver.js</code>.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.4.3 / August 17, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col"><code>jscode.min.js</code> was renamed to <code>code.min.js</code>, and then, <code>code.min.js</code> was unminify to <code>code.js</code>, new javascript again.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.5.0 / August 18, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating <code>README.md</code> and fixing <code>package.json</code> and <code>index.html</code>.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.5.1 / August 20, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">New logo of <code>logo.ico</code>. Fixing <b>HTML</b> and <b>JavaScript</b>.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.6.0 / August 27, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">New redesign of CyCode, <b>TypeScript</b> is a online documentation, and fixing <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.6.1 / December 18, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">New eight colors of CyCode (<b>Blanched Almond</b>, <b>Dark</b>, <b>Light Blue</b>, <b>Orange</b>, <b>Pink</b>, <b>Purple</b>, <b>Red</b>, and <b>Yellow</b>).</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v0.6.2 / December 22, 2022</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">New four languages of CyCode officially (<b>English</b>, <b>Spanish</b>, <b>Korean</b>, and <b>Arabic</b>). (<u>Final Alpha release</u>)</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.0.0 / January 1, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">New <b>Electron</b> desktop application. (<u>First Beta release</u>)</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.0.1 / January 31, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Adding three languages of CyCode officially (<b>Chinese</b>, <b>Filipino</b>, and <b>Hindi</b>).</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.0.2 / February 7, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating <code>package.json</code> and <code>docs/vanilla-typescript/src/index.ts</code>. New <code>index.js</code> is new electron web application. New <code>android-cycode.html</code> on Available for Android.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.0.3 / February 12, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Adding one language for CyCode officially (<b>Japanese</b>), and Updating <code>package.json</code> and <code>index.html</code> was menubar is hidden.</div>
+  </div>
+ </div>
  </div>
  `;
 
+// Cyflex third paragraph and logo
+document.getElementById("cyflex-third").innerHTML = `
+<div style="padding-left: 10px; padding-right: 10px; padding-buttom: 12px;">
+   <h5 style="text-align: center;">Copyright 2021-2023 <a href="https://github.com/Magayaga">Cyril John Magayaga</a>. Code licensed <a href="https://github.com/Magayaga/CyCode/blob/main/LICENSE">MIT</a>.</h5>
+<div>
+`;

@@ -12,5 +12,8 @@
       ],
       "rootDir": "src",
       "moduleResolution": "node"
-    }
-  }
+    },
+    "files": [
+      "index.ts",
+    ]
+}

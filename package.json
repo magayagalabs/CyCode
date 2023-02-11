@@ -76,7 +76,7 @@
     "yauzl": "^2.10.0"
   },
   "devDependencies": {
-    "electron": "^21.3.3",
+    "electron": "^21.4.1",
     "typescript": "^4.7.4"
   },
   "scripts": {

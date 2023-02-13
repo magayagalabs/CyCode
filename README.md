@@ -14,15 +14,15 @@
 
 CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`cycode.html`](./src/english/cycode.html). The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
 
-## Variety of programming languages and markup languages
+## Support programming languages and markup languages
 | HTML | CSS | JavaScript | Markdown | 
 |:-:|:-:|:-:|:-:|
 | Yes | Yes | Yes | Yes |
 
 ## Browser support
 | Chrome | Opera | Firefox | Edge | Chrome (Android) |
-|--------|-------|---------|--------|------------------|
-| A+     | A+    | A+      | A+      | A+                |
+|--------|-------|---------|------|------------------|
+| A+     | A+    | A+      | A+   | A+               |
 
 <h2>
     <img src="images/Electron_Software_Framework_Logo.svg" width="25" height="25"> Electron

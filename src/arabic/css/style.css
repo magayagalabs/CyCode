@@ -1,3 +1,4 @@
+@import url("font/font.css");
 * {
     margin: 0px;
     padding: 0px;
@@ -7,13 +8,18 @@
 .cyflex-body {
     height: 100vh;
     display: flex;
-    border-top: 0.25px solid #66595C
+    border-top: 0.25px solid #66595C;
+}
+
+.cyflex-body1 {
+    border-top: 0.25px solid #66595C;
 }
 
 .text-area {
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 100%;
     border-right: 0.25px solid #555;
 }
 
@@ -30,7 +36,6 @@
 .preview-area {
     width: 50%;
     display: flex;
-    font-family: 'IBM Plex Sans Arabic';
 }
 
 .preview-area iframe {
@@ -45,32 +50,39 @@
 }
 
 /* Add a black background color to the top navigation */
-.topnav {
+.cyflex-menubar {
     background-color: white;
     overflow: hidden;
+    font-family: "IBM Plex Mono";
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .cyflex-menubar a {
     float: left;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .cyflex-menubar a:hover {
     background-color: #474042;
     color: white;
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  .cyflex-menubar a.active {
     background-color: #66595C;
     color: white;
   }
+
+  .cyflex-menubar a.right {
+    background-color: #66595C;
+    color: white;
+    float: right;
+}
 
 .cyflex-border {
     border-top: 0.25px solid #66595C;
@@ -79,4 +91,35 @@
 table {
     width: 100%;
     height: 100%;
+}
+
+.cyflex-cycode-body {
+    text-align: center;
+}
+
+.cyflex-cycode-logo {
+  width: 35vmin;
+  height: auto;
+}
+
+.cyflex-cycode-header {
+  min-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "IBM Plex Mono";
+  font-size: calc(10px + 2vmin);
+  color: blanchedalmond;
+  background-image: linear-gradient(to bottom right, #66595C, #caa500);
+}
+
+.active-one {
+  background-color: #e2d300;
+  color: white;
+}
+
+.max {
+  width: 100%;
+  height: 100%;
 }

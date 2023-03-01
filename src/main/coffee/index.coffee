@@ -1,0 +1,1 @@
+alert "Welcome to the CyCode (v1.1.0!)"

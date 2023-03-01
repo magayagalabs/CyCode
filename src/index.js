@@ -21,7 +21,7 @@ const createWindow = () => {
   win.setMenuBarVisibility(false);
 
   // Current Main
-  win.loadFile('./cycode.html');
+  win.loadFile('./src/cycode.html');
 };
 
 // createWindow is a web browser

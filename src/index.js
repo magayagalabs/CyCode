@@ -10,7 +10,7 @@ const path = require('path');
 const createWindow = () => {
   const win = new BrowserWindow({
     // New icon of CyCode (since July 20, 2022)
-    icon: path.join(__dirname, "./src/main/img/logo.ico"),
+    icon: path.join(__dirname, "./img/logo.ico"),
     // Dimensions
     width: 850,
     height: 600,
@@ -21,7 +21,7 @@ const createWindow = () => {
   win.setMenuBarVisibility(false);
 
   // Current Main
-  win.loadFile('./src/main/cycode.html');
+  win.loadFile('./cycode.html');
 };
 
 // createWindow is a web browser

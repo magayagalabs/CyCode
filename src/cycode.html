@@ -1,5 +1,5 @@
 <!--
-    CyCode (v1.0.1)
+    CyCode (v1.1.1)
     Copyright (c) 2023 Cyril John Magayaga
 -->
 <!DOCTYPE html>
@@ -17,20 +17,24 @@
                 <a class="active">CyCode</a>
                 <a class="active-one" href="#"><u>HTML</u></a>
                 <a href="markdown.html">Markdown</a>
-                <a style="float: right;">v1.1.0</a>
+                <a style="float: right;">v1.1.1</a>
             </div>
             <div class="cyflex-body">
-                <div class="text-area">
+                <div class="text-area" id="drag-left">
                     <textarea title="HyperText Markup Language or HTML" oninput="showPreview()" placeholder="HTML" id="htmlCode"></textarea>
                     <textarea title="Cascading Style Sheets or CSS" oninput="showPreview()" placeholder="CSS" id="cssCode"></textarea>
                     <textarea title="JavaScript" oninput="showPreview()" placeholder="JavaScript" id="jsCode"></textarea>
                 </div>
-                <div class="preview-area">
+                <div class="dragbar" id="dragbar"></div>
+                <div class="preview-area" id="drag-right">
                     <iframe id="preview-window" title="Preview Live"></iframe>
                 </div>
+                    
+            </div>
             </div>
         </div>
         <script type="text/javascript" src="./js/script.js"></script>
+        <script type="text/javascript" src="./js/drag.js"></script>
         <script src="./ts/console.ts"></script>
     </body>
 </html>

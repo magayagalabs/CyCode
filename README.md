@@ -12,7 +12,7 @@
     <img src="images/logo.svg" width="25" height="25"> CyCode
 </h2>
 
-CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`cycode.html`](./src/english/cycode.html). The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
+CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`cycode.html`](./src/cycode.html). The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
 
 ## Support programming languages and markup languages
 | HTML | CSS | JavaScript | Markdown | 
@@ -23,6 +23,11 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
 | Chrome | Opera | Firefox | Edge | Chrome (Android) |
 |--------|-------|---------|------|------------------|
 | A+     | A+    | A+      | A+   | A+               |
+
+## Operating system support
+| Windows | Linux | macOS |
+|---------|-------|-------|
+| Yes     | Yes   | No    |
 
 <h2>
     <img src="images/Electron_Software_Framework_Logo.svg" width="25" height="25"> Electron

@@ -1,5 +1,5 @@
 <!--
-    CyCode (v1.0.1)
+    CyCode (v1.1.1)
     Copyright (c) 2023 Cyril John Magayaga
 -->
 <!DOCTYPE html>
@@ -87,15 +87,22 @@
                 width: 100%;
                 height: 100%;
             }
+
+            .dragbar {
+                padding: 3px;
+                cursor: col-resize;
+                background-color: silver;
+            }
         </style>
         <div class="cyflex-biggest">
             <div class="cyflex-body">
-                <div class="text-area">
+                <div class="text-area" id="drag-left">
                     <textarea title="HyperText Markup Language or HTML" oninput="showPreview()" placeholder="HTML" id="htmlCode"></textarea>
                     <textarea title="Cascading Style Sheets or CSS" oninput="showPreview()" placeholder="CSS" id="cssCode"></textarea>
                     <textarea title="JavaScript" oninput="showPreview()" placeholder="JavaScript" id="jsCode"></textarea>
                 </div>
-                <div class="preview-area">
+                <div class="dragbar" id="dragbar"></div>
+                <div class="preview-area" id="drag-right">
                     <iframe id="preview-window" title="Preview Live"></iframe>
                 </div>
             </div>
@@ -110,6 +117,23 @@
                 frame.write(htmlCode+cssCode+jsCode);
                 frame.close();
             }
+
+            var left = document.getElementById('drag-left');
+            var right = document.getElementById('drag-right');
+            var bar = document.getElementById('dragbar');
+            
+            const drag = (e) => {
+                document.selection ? document.selection.empty() : window.getSelection().removeAllRanges();
+                left.style.width = (e.pageX - bar.offsetWidth / 2) + 'px';
+            }
+            
+            bar.addEventListener('mousedown', () => {
+                document.addEventListener('mousemove', drag);
+            });
+            
+            bar.addEventListener('mouseup', () => {
+                document.removeEventListener('mousemove', drag);
+            });
         </script>
     </body>
 </html>

@@ -27,7 +27,7 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
 ## Operating system support
 | Windows | Linux | macOS |
 |---------|-------|-------|
-| Yes     | Yes   | No    |
+| Yes     | Yes   | Yes   |
 
 <h2>
     <img src="images/Electron_Software_Framework_Logo.svg" width="25" height="25"> Electron

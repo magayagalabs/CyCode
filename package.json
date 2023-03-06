@@ -83,7 +83,10 @@
     "start": "parcel cycode.html --open",
     "build": "parcel build cycode.html",
     "cycode": "electron .",
-    "download": "electron-packager .",
+    "download-default": "electron-packager .",
+    "download-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=src/img/mac/logo.icns --prune=true --out=release-builds",
+    "download-win": "electron-packager . cycode --overwrite --asar=true --platform=win32 --arch=ia32 --icon=src/img/win/logo.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='CyCode'",
+    "download-linux: "electron-packager . cycode --overwrite --asar=true --platform=linux --arch=x64 --icon=src/img/linux/1024x1024.png --prune=true --out=release-builds",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cyril John Magayaga <cjmagayaga957@gmail.com, cyrilmagayaga@proton.me> (https://github.com/magayaga)",

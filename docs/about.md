@@ -1,6 +1,6 @@
 # CyCode (v1.0.0)
 
-**CyCode** is a web-based source-code editor developed by Cyril John Magayaga.
+**CyCode** is a web-based offline code editor developed by Cyril John Magayaga.
 
 Fix bugs and Updates:
 * New **Electron** desktop application
@@ -9,7 +9,7 @@ Fix bugs and Updates:
 
 # CyCode (v1.0.1)
 
-**CyCode** is a web-based source-code editor developed by Cyril John Magayaga.
+**CyCode** is a web-based offline code editor developed by Cyril John Magayaga.
 
 Fix bugs and Updates:
 * Started development of CyCode for Android.
@@ -17,7 +17,7 @@ Fix bugs and Updates:
 
 # CyCode (v1.0.2)
 
-**CyCode** is a web-based source-code editor developed by Cyril John Magayaga.
+**CyCode** is a web-based offline code editor developed by Cyril John Magayaga.
 
 Fix bugs and Updates:
 * Updating `README.md`: new **npm installing** including parcel, electron, electron-packager, and more.
@@ -28,7 +28,7 @@ Fix bugs and Updates:
 
 # CyCode (v1.0.3)
 
-**CyCode** is a web-based source-code editor developed by Cyril John Magayaga.
+**CyCode** is a web-based offline code editor developed by Cyril John Magayaga.
 
 Fix bugs and Updates:
 * Updating **vanilla-typescript** was newest documentation like history or timeline:
@@ -41,10 +41,21 @@ Fix bugs and Updates:
 
 # CyCode (v1.1.0)
 
-**CyCode** is a web-based source-code editor developed by Cyril John Magayaga.
+**CyCode** is a web-based offline code editor developed by Cyril John Magayaga.
 
 Fix bugs and Updates:
 * Updating `package.json`, `index.js`, and **docs** (`index.ts`, `tsconfig.json`, `index.html`)
 * Deleting languages **(too many)**
 * `src/English` was renamed to `src` as the official development.
 * Fix a **HTML**, **CSS**, **JavaScript**, and **TypeScript**
+
+# CyCode (v1.1.1)
+
+**CyCode** is a web-based source-code editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+  * Fix a **HTML**, **CSS**, and **JavaScript**.
+  * New `drag` means selection of `mousedown` like left and `mouseup` like right including `drag.js`.
+  * Fix a **CyCode logo** for Linux was error again.
+  * Update `package.json`: new electron framework including **Windows** (`download-win`), **macOS** (`download-mac`), and **Linux** (`download-linux`).
+  * Update `README.md`

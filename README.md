@@ -60,7 +60,8 @@ You can install this package with `npm`.
 
 
 ```
-npm install
+npm install --save-dev electron
+npm install --save-dev electron-packager
 ```
 
 ## License

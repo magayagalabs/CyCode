@@ -1,5 +1,5 @@
 /**
- * Copyright 2022 Cyril John Magayaga
+ * Copyright 2022-2023 Cyril John Magayaga
  * Cyflex (based on CyCode)
  */
 
@@ -100,6 +100,11 @@
     <div class="col"><b>v1.1.0 / March 1, 2023</b></div>
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">Deleting <b>languages</b> (too many languages), Updating <code>package.json</code>, and <code>index.js</code>. Current <code>src</code> was official development.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.1.1 / March 9, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating <code>package.json</code> and <code>CyCode.html</code>. Fixing a <b>HTML</b>, <b>JavaScript</b>, and <b>CoffeeScript</b>.</div>
   </div>
  </div>
  </div>

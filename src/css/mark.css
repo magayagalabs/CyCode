@@ -42,7 +42,7 @@ code {
 
 /* Add a black background color to the top navigation */
 .cyflex-menubar {
-    background-color: white;
+    background-color: black;
     overflow: hidden;
     font-family: "IBM Plex Mono";
     border-bottom: 0.25px solid #66595C;
@@ -51,7 +51,7 @@ code {
   /* Style the links inside the navigation bar */
   .cyflex-menubar a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;

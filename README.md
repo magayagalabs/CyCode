@@ -26,7 +26,7 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
 
 ## Operating system support
 | Windows | Linux | macOS |
-|---------|-------|-------|
+|:-:|:-:|:-:|
 | Yes     | Yes   | Yes   |
 
 <h2>
@@ -49,9 +49,11 @@ npm run download
     <img src="images/Typescript_logo_2020.svg" width="25" height="25"> Documentation (Vanilla TypeScript)
 </h2>
 
-Change directory and npm:
+Change directory, download, and npm:
 ```bash
 $ cd docs\vanilla-typescript
+$ npm install --save-dev typescript
+$ npm install parcel-bundler
 $ npm run start
 ```
 

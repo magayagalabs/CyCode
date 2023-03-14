@@ -6,6 +6,25 @@
  import "./styles.css";
  import "./script.js";
 
+  // Cyflex first paragraph and logo
+  document.getElementById("cyflex-first-navbar").innerHTML = `
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CyCode</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">History</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  `;
+
  // Cyflex first paragraph and logo
  document.getElementById("cyflex-first").innerHTML = `
  <h1 style="text-align: center; padding-top: 12px; padding-bottom: 12px;"><b>CyCode: Official Documentation</b></h1>
@@ -14,7 +33,7 @@
  
  // Cyflex second paragraph & pictures
  document.getElementById("cyflex-second").innerHTML = `
- <div style="padding-left: 10px; padding-right: 10px; padding-bottom: 20px;">
+ <div style="padding-left: 10px; padding-right: 10px; padding-bottom: 20px;" class="bg-white">
  <div class="container text-center">
   <div class="row align-items-start" style="color: black;">
     <div class="col"><b>v0.1.0 / December 23, 2021</b></div>
@@ -104,7 +123,12 @@
   <div class="row align-items-start" style="color: black;">
     <div class="col"><b>v1.1.1 / March 9, 2023</b></div>
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
-    <div class="col">Updating <code>package.json</code> and <code>CyCode.html</code>. Fixing a <b>HTML</b>, <b>JavaScript</b>, and <b>CoffeeScript</b>.</div>
+    <div class="col">Fix a <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.New <code>drag</code> means selection of <code>mousedown</code> like left and <code>mouseup</code> like right including <code>drag.js</code>. Fix a <b>CyCode logo</b> for <b>Linux</b> was error again.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.1.2 / March 16, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating <code>package.json</code> and <code>CyCode.html</code>. Fixing a <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>CoffeeScript</b>.</div>
   </div>
  </div>
  </div>

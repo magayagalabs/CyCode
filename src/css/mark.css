@@ -23,7 +23,7 @@ textarea {
   resize: none;
   outline: none;
   font-size: 18px;
-  font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono", monospace;
   padding: 20px;
 }
 
@@ -44,7 +44,7 @@ code {
 .cyflex-menubar {
     background-color: black;
     overflow: hidden;
-    font-family: "IBM Plex Mono";
+    font-family: "IBM Plex Mono", monospace;
     border-bottom: 0.25px solid #66595C;
   }
   

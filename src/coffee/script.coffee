@@ -1,3 +1,5 @@
+# Copyright 2023 Cyril John Magayaga
+# CyCode (v1.1.2)
 showPreview = ->
   htmlCode = document.getElementById('htmlCode').value
   cssCode = '<style>' + document.getElementById('cssCode').value + '</style>'

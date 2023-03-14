@@ -5,6 +5,7 @@
 </p>
 
 <h1 align="center">CyCode</h1>
+<h3 align="center">"Alone, Live, and Great"</h3>
 
 <h5 align="center">CyCode (formerly known as Studios Code and the word being a portmanteau of "Cyril Code") is a code editor with a primary focus on web development.</h5>
 
@@ -25,9 +26,9 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
 | A+     | A+    | A+      | A+   | A+               |
 
 ## Operating system support
-| Windows | Linux | macOS |
-|:-:|:-:|:-:|
-| Yes     | Yes   | Yes   |
+| Windows | Linux (Linux Distros) | macOS | Solaris |
+|:-:|:-:|:-:|:-:|
+|Yes|Yes|Yes|Yes|
 
 <h2>
     <img src="images/Electron_Software_Framework_Logo.svg" width="25" height="25"> Electron

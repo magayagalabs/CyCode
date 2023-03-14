@@ -59,3 +59,13 @@ Fix bugs and Updates:
   * Fix a **CyCode logo** for Linux was error again.
   * Update `package.json`: new electron framework including **Windows** (`download-win`), **macOS** (`download-mac`), and **Linux** (`download-linux`).
   * Update `README.md`
+
+# CyCode (v1.1.2)
+
+**CyCode** is a web-based source-code editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Fix a **HTML**, **CSS**, **JavaScript**, and **CoffeeScript**
+   * New `.gitignore` and `SECURITY.md`
+   * Update `package.json`: new electron framework release
+   * 

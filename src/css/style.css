@@ -6,6 +6,16 @@
 }
 
 .cyflex-body {
+  height: 100vh;
+  display: flex;
+  border-top: 0.25px solid #66595C;
+}
+
+.right {
+  float: right;
+}
+
+.cyflex-body {
     height: 100vh;
     display: flex;
     border-top: 0.25px solid #66595C;

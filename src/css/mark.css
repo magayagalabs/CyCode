@@ -17,6 +17,10 @@ textarea {
   padding: 0 20px;
 }
 
+.right {
+  float: right;
+}
+
 textarea {
   border: none;
   border-right: 0.25px solid #66595C;

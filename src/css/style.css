@@ -83,12 +83,12 @@
   }
   
   /* Add a color to the active/current link */
-  .cyflex-menubar a.active {
+  .cyflex-menubar a.active{
     background-color: #66595C;
     color: white;
   }
 
-  .cyflex-menubar a.right {
+  .cyflex-menubar a.right .a{
     background-color: #66595C;
     color: white;
     float: right;

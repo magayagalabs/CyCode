@@ -15,8 +15,8 @@
   },
   "scripts": {
     "start-serve": "serve src/",
-    "start-parcel": "parcel src/cycode.html --open",
-    "build-parcel": "parcel src/cycode.html",
+    "start-parcel": "parcel src/parcel/cycode.html --open",
+    "build-parcel": "parcel src/parcel/cycode.html",
     "cycode": "electron .",
     "download-default": "electron-packager .",
     "download-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=src/img/logo.icns --prune=true --out=release-builds",

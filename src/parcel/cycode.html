@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>CyCode</title>
+        <link rel="icon" type="image/x-icon" href="../img/logo.png">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <body>
+        <div class="cyflex-biggest">
+            <div class="cyflex-menubar">
+                <a title="CyCode is a web-based offline code editor was created and developed by Cyril John Magayaga" class="active">CyCode</a>
+                <a class="active-one"><u>HTML (Preview)</u></a>
+                <a style="float: right;">v1.2.0</a>
+                <a style="float: right;" class="display-time" id="p1"></a>
+            </div>
+            <div class="cyflex-body">
+                <div class="text-area" id="drag-left">
+                    <textarea title="HyperText Markup Language or HTML" oninput="showPreview()" placeholder="HTML" id="htmlCode"></textarea>
+                    <textarea title="Cascading Style Sheets or CSS" oninput="showPreview()" placeholder="CSS" id="cssCode"></textarea>
+                    <textarea title="JavaScript" oninput="showPreview()" placeholder="JavaScript" id="jsCode"></textarea>
+                </div>
+                <div class="dragbar" id="dragbar"></div>
+                <div class="preview-area" id="drag-right">
+                    <iframe id="preview-window" title="Preview Live"></iframe>
+                </div>
+                    
+            </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../js/script.js"></script>
+        <script type="text/javascript" src="../js/drag.js"></script>
+        <script src="../js/time.js"></script>
+    </body>
+</html>

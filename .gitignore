@@ -1,4 +1,17 @@
-node_modules
-docs/vanilla-typescript
-old
-release-builds
+# node
+/node_modules
+
+# docs without node
+/docs/vanilla-typescript
+
+# cross-platform
+/release-builds
+
+# package
+package-lock.json
+
+# parcel
+/.parcel-cache
+
+# dist
+/dist

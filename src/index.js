@@ -14,6 +14,11 @@ const createWindow = () => {
     // Dimensions
     width: 850,
     height: 600,
+    // Preload (v24.0.0)
+    webPreferences: {
+      preload: path.join(__dirname, "./js/electron/preload.js"),
+      fontawesome: path.join(__dirname, "./js/fontawesome/all.min.js")
+    },
 
   });
 
@@ -21,7 +26,7 @@ const createWindow = () => {
   win.setMenuBarVisibility(false);
 
   // Current Main
-  win.loadFile('./src/cycode.html');
+  win.loadFile('./src/about/index.html');
 };
 
 // createWindow is a web browser

@@ -5,31 +5,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>CyCode</title>
+        <title>Markdown Editor | CyCode</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="./img/logo.png">
         <link rel="stylesheet" type="text/css" href="./css/mark.css">
+        <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
     </head>
     <body>
         <div class="cyflex-menubar">
-            <a title="CyCode is a web-based offline code editor was created and developed by Cyril John Magayaga" class="active">CyCode</a>
-            <a href="cycode.html">HTML (Preview)</a>
-            <a class="active-one" href="#"><u>Markdown</u></a>
-            <a href="run/cycode.html">HTML (Run)</a>
-            <a style="float: right;">v1.2.0</a>
-            <a style="float: right;" class="display-time" id="p1"></a>
+            <nav class="navbar navbar-expand-lg brown">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./about/index.html">CyCode</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="./cycode.html">HTML</a>
+                            <a class="nav-link active" href="./markdown.html">Markdown</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
         <div class="editor" id="editor">
-            <textarea :value="input" @input="update" title="Markdown is a lightweight markup language" placeholder="Markdown"></textarea>
+            <textarea :value="input" @input="update" title="Markdown is a lightweight markup language" placeholder="Markdown" class="font"></textarea>
             <div v-html="compiledMarkdown"></div>
         </div>
         <script src="js/lodash.js"></script>
         <script src="js/marked.js"></script>
         <script src="js/vue/vue.js"></script>
         <script src="js/vue/vue-editor.js"></script>
-        <script src="js/time.js"></script>
+        <script type="text/javascript" src="js/time.js"></script>
         <script type="text/javascript" src="./js/script.js"></script>
+        <script type="text/javascript" src="./js/bootstrap/bootstrap.bundle.min.js"></script>
         <script src="ts/console-md.ts"></script>
     </body>
 </html>

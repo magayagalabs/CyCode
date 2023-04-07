@@ -69,7 +69,8 @@
   /* Style the links inside the navigation bar */
   .cyflex-menubar a {
     float: left;
-    color: white;
+    background-color: #807477;
+    color: whitesmoke;
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
@@ -85,12 +86,12 @@
   /* Add a color to the active/current link */
   .cyflex-menubar a.active{
     background-color: #66595C;
-    color: white;
+    color: black;
   }
 
   .cyflex-menubar a.right .a{
     background-color: #66595C;
-    color: white;
+    color: black;
     float: right;
 }
 
@@ -143,4 +144,8 @@ table {
   padding: 3px;
   cursor: col-resize;
   background-color: silver;
+}
+
+.brown {
+  background-color: #807477;
 }

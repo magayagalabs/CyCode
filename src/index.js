@@ -17,7 +17,6 @@ const createWindow = () => {
     // Preload (v24.0.0)
     webPreferences: {
       preload: path.join(__dirname, "./js/electron/preload.js"),
-      fontawesome: path.join(__dirname, "./js/fontawesome/all.min.js")
     },
 
   });

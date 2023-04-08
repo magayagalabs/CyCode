@@ -130,6 +130,11 @@
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">Updating <code>package.json</code> and <code>CyCode.html</code>. New <code>.gitignore</code> and <code>SECURITY.md</code>. Fixing a <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>CoffeeScript</b>.</div>
   </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.2.0 / May 19, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating <code>package.json</code>, <code>.gitignore</code>, and <code>index.js</code>. Fixing a <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>CoffeeScript</b>, and <b>TypeScript</b>. <b>Vue.js 2</b> support will end on December 31, 2023.</div>
+  </div>
  </div>
  </div>
  `;

@@ -36,19 +36,31 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
 |Yes    |Yes     |Yes (with Docs) |No       |No             |
 
 <h2>
-    <img src="images/Electron_Software_Framework_Logo.svg" width="25" height="25"> Electron
+    Quick start
 </h2>
 
-Now, **CyCode** is new electron desktop application.
+Several quick start options are available:
 
-```
-npm run cycode
-```
+* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v1.1.2.zip)
+* Clone the repo: Git: `git clone https://github.com/Magayaga/CyCode.git` or GitHub: `gh repo clone Magayaga/CyCode`
 
-Now, download the **CyCode** on electron desktop application.
+<h2>
+    <img src="images/Electron_Software_Framework_Logo.svg" width="25" height="25"> Build
+</h2>
 
-```
-npm run download
+```powershell
+# Download the CyCode
+$ git clone https://github.com/Magayaga/CyCode.git
+
+# Change directory
+$ cd CyCode
+
+# Install all packages in npm
+$ npm install
+
+# Build a electron framework application
+$ npm run cycode
+
 ```
 
 <h2>
@@ -67,7 +79,8 @@ $ npm run start
 You can install this package with `npm`.
 
 
-```
+```powershell
+# Could it be an older or newer version?
 npm install --save-dev electron
 npm install --save-dev electron-packager
 ```

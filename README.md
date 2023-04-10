@@ -58,7 +58,7 @@ $ cd CyCode
 # Install all packages in npm
 $ npm install
 
-# Build a electron framework application
+# Build and run a electron framework application
 $ npm run cycode
 
 ```

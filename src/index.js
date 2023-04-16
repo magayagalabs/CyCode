@@ -12,8 +12,8 @@ const createWindow = () => {
     // New icon of CyCode (since July 20, 2022)
     icon: path.join(__dirname, "./img/logo.png"),
     // Dimensions
-    width: 850,
-    height: 600,
+    width: 1008,
+    height: 808,
     // Preload (v24.0.0)
     webPreferences: {
       preload: path.join(__dirname, "./js/electron/preload.js"),

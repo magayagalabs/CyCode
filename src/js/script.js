@@ -10,3 +10,5 @@ showPreview = function() {
   frame.write(htmlCode + cssCode + jsCode);
   frame.close();
 };
+
+new FroalaEditor("textarea");

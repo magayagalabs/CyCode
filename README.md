@@ -21,9 +21,9 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
 | Yes | Yes | Yes | Yes |
 
 ## Browser support
-| Chrome | Opera | Firefox | Edge | Chrome (Android) |
-|--------|-------|---------|------|------------------|
-| A+     | A+    | A+      | A+   | A+               |
+| Chrome | Opera | Firefox | Edge | Chrome (Android) | Safari |
+|--------|-------|---------|------|------------------|--------|
+| A+     | A+    | A+      | A+   | A+               | A+     |
 
 ## Operating system support
 | Windows | Linux (Linux Distros) | macOS |

@@ -1,26 +1,27 @@
 @import "../css/font/font.css";
-/* Add a black background color to the top navigation */
-/* Style the links inside the navigation bar */
-/* Change the color of links on hover */
-/* Add a color to the active/current link */
+
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
+
 .cyflex-body {
 	height: 100vh;
 	display: flex;
 	border-top: 0.25px solid #66595C;
 }
+
 .cyflex-body1 {
 	border-top: 0.25px solid #66595C;
 }
+
 .text-area {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
 	height: 100%;
+
 	textarea {
 		resize: none;
 		outline: none;
@@ -31,24 +32,29 @@
 		font-family: "IBM Plex Mono", monospace;
 	}
 }
+
 .preview-area {
 	flex: 1;
 	width: 50%;
 	display: flex;
+
 	iframe {
 		width: 100%;
 		height: 100%;
 		border: none;
 	}
 }
+
 .cyflex-biggest {
 	width: 100%;
 	height: 100%;
 }
+
 .cyflex-menubar {
 	background-color: black;
 	overflow: hidden;
 	font-family: "IBM Plex Mono", monospace;
+
 	a {
 		float: left;
 		color: white;
@@ -56,39 +62,48 @@
 		padding: 10px 12px;
 		text-decoration: none;
 		font-size: 15px;
+
 		&:hover {
 			background-color: #474042;
 			color: white;
 		}
 	}
+
 	a.active {
 		background-color: #66595C;
 		color: white;
 	}
+
 	a.right {
 		background-color: #66595C;
 		color: white;
 		float: right;
 	}
 }
+
 .cyflex-border {
 	border-top: 0.25px solid #66595C;
 }
+
 .dark-mode {
 	background-color: black;
 	color: white;
 }
+
 table {
 	width: 100%;
 	height: 100%;
 }
+
 .cyflex-cycode-body {
 	text-align: center;
 }
+
 .cyflex-cycode-logo {
 	width: 35vmin;
 	height: auto;
 }
+
 .cyflex-cycode-header {
 	min-height: 94vh;
 	display: flex;
@@ -100,14 +115,17 @@ table {
 	color: blanchedalmond;
 	background-image: linear-gradient(to bottom right, #66595C, #caa500);
 }
+
 .active-one {
 	background-color: #e2d300;
 	color: white;
 }
+
 .max {
 	width: 100%;
 	height: 100%;
 }
+
 .dragbar {
 	padding: 3px;
 	cursor: col-resize;

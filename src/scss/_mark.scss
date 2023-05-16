@@ -1,22 +1,22 @@
 @import "../css/font/font.css";
-/* Add a black background color to the top navigation */
-/* Style the links inside the navigation bar */
-/* Change the color of links on hover */
-/* Add a color to the active/current link */
+
 html {
 	margin: 0;
 	height: 100%;
 	color: #333;
 }
+
 body {
 	margin: 0;
 	height: 100%;
 	color: #333;
 }
+
 #editor {
 	margin: 0;
 	height: 100%;
 	color: #333;
+
 	div {
 		display: inline-block;
 		width: 49%;
@@ -26,6 +26,7 @@ body {
 		padding: 0 20px;
 	}
 }
+
 textarea {
 	display: inline-block;
 	width: 50%;
@@ -41,14 +42,17 @@ textarea {
 	font-family: "IBM Plex Mono", monospace;
 	padding: 20px;
 }
+
 code {
 	color: #f66;
 }
+
 .cyflex-menubar {
 	background-color: black;
 	overflow: hidden;
 	font-family: "IBM Plex Mono", monospace;
 	border-bottom: 0.25px solid #66595C;
+
 	a {
 		float: left;
 		color: white;
@@ -61,11 +65,13 @@ code {
 			color: white;
 		}
 	}
+
 	a.active {
 		background-color: #66595C;
 		color: white;
 	}
 }
+
 .active-one {
 	background-color: #e2d300;
 	color: white;

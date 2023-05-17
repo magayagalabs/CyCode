@@ -12,6 +12,7 @@ package-lock.json
 
 # parcel
 /.parcel-cache
+/src/js/filesaver
 
 # dist
 /dist

@@ -41,7 +41,7 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
 
 Several quick start options are available:
 
-* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v1.1.2.zip)
+* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v1.2.1.zip)
 * Clone the repo: Git: `git clone https://github.com/Magayaga/CyCode.git` or GitHub: `gh repo clone Magayaga/CyCode`
 
 <h2>

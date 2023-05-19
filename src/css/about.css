@@ -1,0 +1,29 @@
+.mid-bg {
+    float: left;
+    width: 662px;
+    background: url(data:,)repeat-y 0 0;
+    padding: 16px 94px 5px 94px;
+}
+
+.top-row {
+    float: left;
+    width: 100%;
+}
+
+.scroll .heading {
+    float: left;
+    width: 100%;
+}
+
+.scroll {
+    float: left;
+    width: 75%;
+    background: #f2f2f2;
+    border: 1px solid #dcdcdc;
+    padding: 10px 15px;
+    height: 233px;
+    overflow: scroll;
+    color: #191919;
+    overflow-x: hidden;
+    margin: 20px 0 15px 0;
+}

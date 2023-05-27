@@ -28,7 +28,7 @@
  // Cyflex first paragraph and logo
  document.getElementById("cyflex-first").innerHTML = `
  <h1 style="text-align: center; padding-top: 12px; padding-bottom: 12px;"><b>CyCode: Official Documentation</b></h1>
- <p style="padding-left: 10px; padding-right: 10px; text-align: justify;"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v1.0.3</b> <b>(February 12, 2023)</b>.</p>
+ <p style="padding-left: 10px; padding-right: 10px; text-align: justify;"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v1.2.1</b> <b>(May 27, 2023)</b>.</p>
  `;
  
  // Cyflex second paragraph & pictures
@@ -134,6 +134,11 @@
     <div class="col"><b>v1.2.0 / May 19, 2023</b></div>
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">Updating <code>package.json</code>, <code>.gitignore</code>, and <code>index.js</code>. Fixing a <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>CoffeeScript</b>, and <b>TypeScript</b>. <b>Vue.js 2</b> support will end on December 31, 2023.</div>
+  </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.2.1 / May 27, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating HTML, CSS, and JavaScript. New scroll on HTML.</div>
   </div>
  </div>
  </div>

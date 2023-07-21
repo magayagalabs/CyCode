@@ -27,13 +27,13 @@
 
  // Cyflex first paragraph and logo
  document.getElementById("cyflex-first").innerHTML = `
- <h1 style="text-align: center; padding-top: 12px; padding-bottom: 12px;"><b>CyCode: Official Documentation</b></h1>
- <p style="padding-left: 10px; padding-right: 10px; text-align: justify;"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v1.2.1</b> <b>(May 27, 2023)</b>.</p>
+ <h1 class="text-center p-3"><b>CyCode: Official Documentation</b></h1>
+ <p class="px-5"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v1.2.2</b> <b>(July 21, 2023)</b>.</p>
  `;
  
  // Cyflex second paragraph & pictures
  document.getElementById("cyflex-second").innerHTML = `
- <div style="padding-left: 10px; padding-right: 10px; padding-bottom: 20px;" class="bg-white">
+ <div style="padding-left: 10px; padding-right: 10px; padding-bottom: 20px;" class="bg-white p-5">
  <div class="container text-center">
   <div class="row align-items-start" style="color: black;">
     <div class="col"><b>v0.1.0 / December 23, 2021</b></div>
@@ -140,13 +140,18 @@
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">Updating HTML, CSS, and JavaScript. New scroll on HTML.</div>
   </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.2.2 / July 21, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating HTML, CSS, and JavaScript. New WYSIWYG based on froala editor.</div>
+  </div>
  </div>
  </div>
  `;
 
 // Cyflex third paragraph and logo
 document.getElementById("cyflex-third").innerHTML = `
-<div style="padding-left: 10px; padding-right: 10px; padding-buttom: 12px;">
+<div class="py-5">
    <h5 style="text-align: center;">Copyright 2021-2023 <a href="https://github.com/Magayaga">Cyril John Magayaga</a>. Code licensed <a href="https://github.com/Magayaga/CyCode/blob/main/LICENSE">MIT</a>.</h5>
 <div>
 `;

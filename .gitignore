@@ -16,8 +16,3 @@ package-lock.json
 
 # dist
 /dist
-
-# Upcoming WYSIWYG
-/src/wysiwyg
-/src/js/wysiwyg.js
-/src/css/wysiwyg.css

@@ -10,7 +10,7 @@
   document.getElementById("cyflex-first-navbar").innerHTML = `
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">CyCode</a>
+    <a class="navbar-brand" href="#">CyCode Docs</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -18,6 +18,7 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">History</a>
+	  <a class="nav-link disabled">Downloads</a>
         </li>
       </ul>
     </div>
@@ -145,6 +146,11 @@
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">Updating HTML, CSS, and JavaScript. New WYSIWYG based on froala editor.</div>
   </div>
+  <div class="row align-items-start" style="color: black;">
+    <div class="col"><b>v1.2.3 / July 30, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating and fixing HTML, CSS, and JavaScript.</div>
+  </div>
  </div>
  </div>
  `;
@@ -152,6 +158,6 @@
 // Cyflex third paragraph and logo
 document.getElementById("cyflex-third").innerHTML = `
 <div class="py-5">
-   <h5 style="text-align: center;">Copyright 2021-2023 <a href="https://github.com/Magayaga">Cyril John Magayaga</a>. Code licensed <a href="https://github.com/Magayaga/CyCode/blob/main/LICENSE">MIT</a>.</h5>
+   <h5 style="text-align: center;">Copyright 2021-2023 <a class="nav-link" href="https://github.com/Magayaga">Cyril John Magayaga</a>. Code licensed <a class="nav-link" href="https://github.com/Magayaga/CyCode/blob/main/LICENSE">MIT</a>.</h5>
 <div>
 `;

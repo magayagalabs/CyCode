@@ -13,7 +13,7 @@
     <img src="images/logo.svg" width="25" height="25"> CyCode
 </h2>
 
-CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`cycode.html`](./src/cycode.html). The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
+CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`cycode.html`](./src/cycode.html). The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
 
 ## Support programming, markup, and script languages
 | HTML | CSS | JavaScript | Markdown | WYSIWYG |
@@ -41,7 +41,7 @@ CyCode is a web-based code editor, It is written in **HTML**, **CSS**, and **Jav
 
 Several quick start options are available:
 
-* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v1.2.3.zip)
+* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v1.3.0.zip)
 * Clone the repo: Git: `git clone https://github.com/Magayaga/CyCode.git` or GitHub: `gh repo clone Magayaga/CyCode`
 
 <h2>

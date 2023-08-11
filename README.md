@@ -16,21 +16,25 @@
 CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is written in **HTML**, **CSS**, and **JavaScript**. You are open the [`cycode.html`](./src/cycode.html). The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
 
 ## Support programming, markup, and script languages
+
 | HTML | CSS | JavaScript | Markdown | WYSIWYG |
 |:-:|:-:|:-:|:-:|:-:|
 | Yes | Yes | Yes | Yes | Yes |
 
 ## Browser support
+
 | Chrome | Opera | Firefox | Edge | Chrome (Android) | Safari | Brave Browser |
 |--------|-------|---------|------|------------------|--------|---------------|
 | A+     | A+    | A+      | A+   | A+               | A+     | A+            |
 
 ## Operating system support
+
 | Windows | Linux (Linux Distros) | macOS |
 |:-------:|:---------------------:|:-----:|
 |Yes      |Yes                    |Yes    |
 
 ## Web server support
+
 | Serve | Parcel | Parcel bundler | Webpack | React scripts |
 |:-----:|:------:|:--------------:|:-------:|:-------------:|
 |Yes    |Yes     |Yes (with Docs) |No       |No             |

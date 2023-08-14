@@ -74,8 +74,7 @@ $ npm run cycode
 Change directory, download, and npm:
 ```bash
 $ cd docs\vanilla-typescript
-$ npm install --save-dev typescript
-$ npm install parcel-bundler
+$ npm install
 $ npm run start
 ```
 

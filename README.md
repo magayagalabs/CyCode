@@ -23,9 +23,9 @@ CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is wr
 
 ## Browser support
 
-| Chrome | Opera | Firefox | Edge | Chrome (Android) | Safari | Brave Browser |
-|--------|-------|---------|------|------------------|--------|---------------|
-| A+     | A+    | A+      | A+   | A+               | A+     | A+            |
+| Chrome | Opera | Firefox | Edge | Chrome (Android) | Safari | Brave Browser | Arc Browser |
+|--------|-------|---------|------|------------------|--------|---------------|-------------|
+| A+     | A+    | A+      | A+   | A+               | A+     | A+            | TBA         |
 
 ## Operating system support
 

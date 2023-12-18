@@ -83,6 +83,10 @@ code {
     font-family: "IBM Plex Mono";
   }
 
+  .FiraSans {
+    font-family: "Fira Sans";
+  }
+
   .brown {
     background-color: #807477;
   }

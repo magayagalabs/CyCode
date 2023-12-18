@@ -63,7 +63,7 @@
 .cyflex-menubar {
     background-color: black;
     overflow: hidden;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Fira Sans", monospace;
   }
   
   /* Style the links inside the navigation bar */
@@ -159,4 +159,8 @@ table {
 
 .IBMPlexMono {
   font-family: "IBM Plex Mono";
+}
+
+.FiraSans {
+  font-family: "Fira Sans";
 }

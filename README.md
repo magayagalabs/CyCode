@@ -45,7 +45,7 @@ CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is wr
 
 Several quick start options are available:
 
-* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v1.3.0.zip)
+* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v1.3.1.zip)
 * Clone the repo: Git: `git clone https://github.com/Magayaga/CyCode.git` or GitHub: `gh repo clone Magayaga/CyCode`
 
 <h2>

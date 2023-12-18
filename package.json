@@ -1,6 +1,6 @@
 {
   "name": "cycode",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "This is source-code editor",
   "main": "src/index.js",
   "repository": {
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "coffeescript": "^2.7.0",
-    "electron": "^24.5.0",
+    "electron": "^28.0.0",
     "electron-packager": "^17.1.1",
     "typescript": "^5.0.3"
   },
@@ -23,7 +23,7 @@
     "start-parcel": "parcel src/parcel/cycode.html --open",
     "build-parcel": "parcel src/parcel/cycode.html",
     "cycode": "electron .",
-    "download-all-os": "npm run download-mac & npm run download-win & download-linx",
+    "download-all-os": "npm run download-mac & npm run download-win & download-linux",
     "download-default": "electron-packager .",
     "download-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=src/img/logo.icns --prune=true --out=release-builds",
     "download-win": "electron-packager . cycode --overwrite --asar=true --platform=win32 --arch=ia32 --icon=src/img/logo.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='CyCode'",

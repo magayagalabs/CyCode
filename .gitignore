@@ -2,7 +2,9 @@
 /node_modules
 
 # docs without node
-/docs/vanilla-typescript
+/docs/vanilla-typescript/.cache
+/docs/vanilla-typescript/dist
+/docs/vanilla-typescript/node_modules
 
 # cross-platform
 /release-builds

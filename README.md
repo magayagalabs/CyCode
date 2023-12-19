@@ -25,13 +25,13 @@ CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is wr
 |:-:|:-:|:-:|:-:|:-:|
 | Yes | Yes | Yes | Yes | Yes |
 
-## Browser support
+## Browser supports
 
-| Chrome | Opera | Firefox | Edge | Chrome (Android) | Safari | Brave Browser | Arc Browser |
-|--------|-------|---------|------|------------------|--------|---------------|-------------|
-| A+     | A+    | A+      | A+   | A+               | A+     | A+            | TBA         |
+| ![Google Chrome logo](.github/images/chrome.svg) | ![Opera logo](.github/images/opera.svg) | ![Mozilla Firefox logo](.github/images/firefox.svg) | ![Microsoft Edge logo](.github/images/edge.svg) | ![Apple Safari logo](.github/images/safari.svg) | ![Brave Browser logo](.github/images/brave.svg) | ![Arc Browser logo](.github/images/arc.svg) |
+|--------|-------|----------------|------|-----------------|---------------|-------------|
+| A+     | A+    | A+ (Gecko)     | A+   | A+ (WebKit)     | A+            | TBA         |
 
-## Operating system support
+## Operating system supports
 
 | Windows | Linux (Linux Distros) | macOS |
 |:-------:|:---------------------:|:-----:|

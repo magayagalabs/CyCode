@@ -14,7 +14,7 @@
 </p>
 
 <h2>
-    <img src="images/logo.svg" width="25" height="25"> CyCode
+    <img src=".github/images/logo.svg" width="25" height="25"> CyCode
 </h2>
 
 CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is written in **HTML**, **CSS**, and **JavaScript**. It was created and developed on December 23, 2021, by Cyril John Magayaga. You are open the [`cycode.html`](./src/cycode.html). The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.

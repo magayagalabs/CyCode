@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/magayagalabs/CyCode#CyCode">
-    <img src="images/logo.svg" width="200" height="200">
+    <img src=".github/images/logo.svg" width="200" height="200">
   </a>
 </p>
 

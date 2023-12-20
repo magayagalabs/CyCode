@@ -51,7 +51,7 @@
  // Cyflex first paragraph and logo
  document.getElementById("cyflex-first").innerHTML = `
  <h1 class="text-center p-3"><b>CyCode: Official Documentation</b></h1>
- <p class="px-5"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v1.3.0</b> <b>(December 16, 2023)</b>.</p>
+ <p class="px-5"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v1.3.2</b> <b>(December 23, 2023)</b>.</p>
  `;
  
  // Cyflex second paragraph & pictures
@@ -182,6 +182,11 @@
     <div class="col"><b>v1.3.1 / December 20, 2023</b></div>
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">New and Updating <code>link.js</code> (method to open a URL in the default web browser). New font of CyCode is <b>Fira Sans</b> and fixing HTML, CSS, and JavaScript files.</div>
+  </div>
+  <div class="row align-items-start text-light border">
+    <div class="col"><b>v1.3.2 / December 23, 2023</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating and fixing <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> files. Updating <code>README.md</code>. <code>/images</code> to <code>.github/images</code></div>
   </div>
  </div>
  </div>

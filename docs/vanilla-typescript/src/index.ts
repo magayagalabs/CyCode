@@ -186,7 +186,7 @@
   <div class="row align-items-start text-light border">
     <div class="col"><b>v1.3.2 / December 23, 2023</b></div>
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
-    <div class="col">Updating and fixing <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> files. Updating <code>README.md</code>. <code>/images</code> to <code>.github/images</code></div>
+    <div class="col">Updating and fixing <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> files. Updating <code>README.md</code> and official documentation of CyCode. <code>/images</code> to <code>.github/images</code></div>
   </div>
  </div>
  </div>

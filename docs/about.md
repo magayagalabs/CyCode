@@ -66,6 +66,77 @@ Fix bugs and Updates:
 
 Fix bugs and Updates:
    * Fix a **HTML**, **CSS**, **JavaScript**, and **CoffeeScript**
-   * New `.gitignore` and `SECURITY.md`
-   * Update `package.json`: new electron framework release
-   * 
+   * Update `package.json`, `cycode.html`, `index.js`, and `README.md`
+   * New `SECURITY.md` and `.gitignore`
+
+# CyCode (v1.2.0)
+
+**CyCode** is a web-based HTML and Markdown editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Fix and updating **HTML**, **CSS**, **SCSS**, **JavaScript**, and **Parcel** server
+   * New **Bootstrap** CSS framework.
+   * Updating `cycode.html`, `markdown.html`, `about/index.html`, and `index.js`
+   * Updating **CyCode's logo**: (logo.ico → default logo.svg or logo.png)
+   * Updating `.gitignore` file specifies intentionally untracked files that Git should ignore.
+   * Deleting the latest version in HTML.
+   * Updating **Electron framework** is really testing application.
+   * Updating **Vanilla-typescript** is the official documentation of CyCode.
+
+# CyCode (v1.2.1)
+
+**CyCode** is a web-based HTML and Markdown editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating **latest version**, **HTML** files, **CSS** files, **JavaScript** files.
+   * Updating **Vanilla-typescript** is the official documentation of CyCode.
+   * New **scroll** on HTML and CSS.
+
+# CyCode (v1.2.2)
+
+**CyCode** is a web-based HTML and Markdown editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating **HTML** files, **CSS** files, **JavaScript** files.
+   * Updating **Vanilla-typescript** is the official documentation of CyCode.
+   * New **WYSIWYG** on HTML and CSS.
+
+# CyCode (v1.2.3)
+
+**CyCode** is a web-based HTML and Markdown editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating and fixing **HTML** files, **CSS** files, **JavaScript** files.
+   * Updating **Vanilla-typescript** is the official documentation of CyCode.
+
+# CyCode (v1.3.0)
+
+**CyCode** is a web-based HTML, Markdown, and WYSIWYG editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating and fixing **HTML** files.
+   * Updating **README.md**
+   * Updating **Vanilla-typescript** is the official documentation of CyCode.
+
+# CyCode (v1.3.1)
+
+**CyCode** is a web-based HTML, Markdown, and WYSIWYG editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating and fixing **HTML**, **CSS**, and **JavaScript** files.
+        * New `link.js` (method to open a URL in the default web browser)
+        * New **background** (SVG)
+        * New font of CyCode is **Fira Sans**
+   * Updating **README.md**
+   * Updating **Vanilla-typescript** is the official documentation of CyCode.
+
+# CyCode (v1.3.2)
+
+**CyCode** is a web-based HTML, Markdown, and WYSIWYG editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating and fixing **HTML**, **CSS**, and **JavaScript** files.
+   * Updating and fixing `README.md`
+        * [Merge branch 'main' of github.com:Magayaga/CyCode](https://github.com/magayagalabs/CyCode/commit/c3e1cf442c2786dd1c115029334dab49a9e187fc)
+   * Updating **Vanilla-typescript** is the official documentation of CyCode.
+   * `images` to `.github/images` like screenshots, photos, and logos

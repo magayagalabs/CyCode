@@ -3,7 +3,9 @@
 
 <h5 align="center">CyCode (formerly known as Studios Code and the word being a portmanteau of "Cyril Code") is an HTML editor, Markdown editor, and WYSIWYG editor with a primary focus on web development.</h5>
 
-CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is written in **HTML**, **CSS**, **SCSS**, **JavaScript**, **TypeScript**, and **CoffeeScript**. It was created and developed on December 23, 2021, by Cyril John Magayaga. You are open the [`cycode.html`](./src/cycode.html). The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
+CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is written in **HTML**, **CSS**, and **JavaScript**. It was created and developed on December 23, 2021, by Cyril John Magayaga. You are open the [`cycode.html`](./src/cycode.html).
+
+The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
 
 ## Support programming, markup, and script languages
 
@@ -14,8 +16,8 @@ CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is wr
 ## Browser supports
 
 | Google Chrome | Opera | Mozilla Firefox | Microsoft Edge | Apple Safari | Brave Browser | Arc Browser |
-|--------|-------|----------------|------|-----------------|---------------|-------------|
-| A+     | A+    | A+ (Gecko)     | A+   | A+ (WebKit)     | A+            | TBA         |
+|---------------|-------|-----------------|----------------|--------------|---------------|-------------|
+| A+            | A+    | A+ (Gecko)      | A+             | A+ (WebKit)  | A+            | TBA         |
 
 ## Operating system supports
 
@@ -33,7 +35,7 @@ CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is wr
 
 Several quick start options are available:
 
-* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v1.3.2.zip)
+* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.0.zip)
 * Clone the repo:
 
   * Git: `git clone https://github.com/Magayaga/CyCode.git`

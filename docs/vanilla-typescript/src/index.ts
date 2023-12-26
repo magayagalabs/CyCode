@@ -42,6 +42,12 @@
         <li class="nav-item">
           <a class="nav-link text-light active" aria-current="page" href="#">Releases</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-light active" aria-current="page" href="#">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light active" aria-current="page" href="#">About</a>
+        </li>
       </ul>
     </div>
   </div>

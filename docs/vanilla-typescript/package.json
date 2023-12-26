@@ -9,6 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "parcel-bundler": "^1.12.5"
   },
   "devDependencies": {

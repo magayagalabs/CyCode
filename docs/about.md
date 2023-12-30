@@ -115,7 +115,7 @@ Fix bugs and Updates:
 
 Fix bugs and Updates:
    * Updating and fixing **HTML** files.
-   * Updating **README.md**
+   * Updating `README.md`         
    * Updating **Vanilla-typescript** is the official documentation of CyCode.
 
 # CyCode (v1.3.1)
@@ -127,7 +127,7 @@ Fix bugs and Updates:
         * New `link.js` (method to open a URL in the default web browser)
         * New **background** (SVG)
         * New font of CyCode is **Fira Sans**
-   * Updating **README.md**
+   * Updating `README.md`
    * Updating **Vanilla-typescript** is the official documentation of CyCode.
 
 # CyCode (v1.3.2)
@@ -140,3 +140,15 @@ Fix bugs and Updates:
         * [Merge branch 'main' of github.com:Magayaga/CyCode](https://github.com/magayagalabs/CyCode/commit/c3e1cf442c2786dd1c115029334dab49a9e187fc)
    * Updating **Vanilla-typescript** is the official documentation of CyCode.
    * `images` to `.github/images` like screenshots, photos, and logos
+
+# CyCode (v2.0.0)
+
+**CyCode** is a web-based HTML, Markdown, and WYSIWYG editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating and fixing **HTML**
+        * About CyCode is new **footer**
+   * Updating and fixing **JavaScript**
+        * Updating and fixing **Bootstrap**
+   * Updating `README.md`
+   * Updating **vanilla-typescript** and `about.md` is the official documentation of CyCode.

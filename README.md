@@ -35,7 +35,7 @@ The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorf
 
 Several quick start options are available:
 
-* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.0.zip)
+* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.1.zip)
 * Clone the repo:
 
   * Git: `git clone https://github.com/Magayaga/CyCode.git`
@@ -43,7 +43,7 @@ Several quick start options are available:
 
 ## 🏗️ Build CyCode
 
-```powershell
+```shell
 # Download the CyCode
 $ git clone https://github.com/Magayaga/CyCode.git
 
@@ -78,6 +78,6 @@ npm install --save-dev electron-packager
 ```
 
 ## License
-Copyright ©2021-2023 Cyril John Magayaga. All rights reserved.
+Copyright ©2021-2024 Cyril John Magayaga. All rights reserved.
 
 Licensed under the [MIT](LICENSE) license.

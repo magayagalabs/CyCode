@@ -1,5 +1,5 @@
 /**
- * Copyright 2022-2023 Cyril John Magayaga
+ * Copyright 2022-2024 Cyril John Magayaga
  * Cyflex (based on CyCode)
  */
 
@@ -230,7 +230,7 @@ document.getElementById("cyflex-third").innerHTML = `
       </defs>
       </svg>
       </a>
-      <span class="mb-3 mb-md-0 text-light nav-link">© 2021 - 2023 <a href="https://github.com/Magayaga">Cyril John Magayaga</a></span>
+      <span class="mb-3 mb-md-0 text-light nav-link">© 2021 - 2024 <a href="https://github.com/Magayaga">Cyril John Magayaga</a></span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end">

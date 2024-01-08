@@ -199,6 +199,11 @@
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">Updating and fixing <b>HTML</b> (About CyCode is new <b>footer</b>) and <b>JavaScript</b> (Fixing and updating <b>Bootstrap</b>) files. Updating <code>README.md</code> and official documentation of CyCode.</div>
   </div>
+  <div class="row align-items-start text-light border">
+    <div class="col"><b>v2.0.1 / January 8, 2024</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating and fixing <b>HTML</b> files, <b>JavaScript</b> files, <code>README.md</code>, official documentation of CyCode, and <code>package.json</code></div>
+  </div>
  </div>
  </div>
  `;

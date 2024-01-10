@@ -61,7 +61,7 @@ $ npm run cycode
 ## 📄 Documentation of CyCode (Vanilla TypeScript)
 
 Change directory, download, and npm:
-```bash
+```shell
 $ cd docs\vanilla-typescript
 $ npm install
 $ npm run start
@@ -71,7 +71,7 @@ $ npm run start
 You can install this package with `npm`.
 
 
-```powershell
+```shell
 # Could it be an older or newer version?
 npm install --save-dev electron
 npm install --save-dev electron-packager

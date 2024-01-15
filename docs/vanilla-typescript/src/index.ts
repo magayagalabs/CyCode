@@ -57,7 +57,7 @@
  // Cyflex first paragraph and logo
  document.getElementById("cyflex-first").innerHTML = `
  <h1 class="text-center p-3"><b>CyCode: Official Documentation</b></h1>
- <p class="px-5"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v2.0.0</b> <b>(December 31, 2023)</b>.</p>
+ <p class="px-5"><b>CyCode</b> is a web-based offline code editor created and developed by <b><a href="https://github.com/Magayaga">Cyril John Magayaga</a></b>. It is available with the <b><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron Framework</a></b> for <b>macOS</b>, <b>Microsoft Windows</b>, <b>Linux</b>, and <b>Android</b> operating systems. The main purpose of CyCode is its live <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It was latest release on <b>v2.0.2</b> <b>(January 16, 2024)</b>.</p>
  `;
 
  // Cyflex second paragraph & pictures
@@ -203,6 +203,11 @@
     <div class="col"><b>v2.0.1 / January 8, 2024</b></div>
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">Updating and fixing <b>HTML</b> files, <b>JavaScript</b> files, <code>README.md</code>, official documentation of CyCode, and <code>package.json</code></div>
+  </div>
+  <div class="row align-items-start text-light border">
+    <div class="col"><b>v2.0.2 / January 16, 2024</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating and fixing <b>HTML</b> files and <code>README.md</code>.</div>
   </div>
  </div>
  </div>

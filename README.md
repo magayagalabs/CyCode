@@ -40,6 +40,7 @@ Several quick start options are available:
 
   * Git: `git clone https://github.com/Magayaga/CyCode.git`
   * GitHub Desktop: `gh repo clone Magayaga/CyCode`
+  * Git Bash/Linux Terminal: `unzip https://github.com/Magayaga/CyCode/archive/v2.0.2.zip`
 
 ## 🏗️ Build CyCode
 

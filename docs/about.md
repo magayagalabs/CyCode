@@ -172,4 +172,5 @@ Fix bugs and Updates:
    * Updating and fixing **HTML** files
    * Updating `README.md`
    * Updating `package.json`
+   * Updating and fixing [**old sources**](https://github.com/magayagalabs/CyCode/tree/main/old) of CyCode.
    * Updating **vanilla-typescript** and `about.md` is the official documentation of CyCode.

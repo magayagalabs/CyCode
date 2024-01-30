@@ -21,3 +21,8 @@ package-lock.json
 
 # windows
 /cycode-win32-x64
+
+# applications
+*.exe
+*.dmg
+*.msi

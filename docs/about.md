@@ -174,3 +174,14 @@ Fix bugs and Updates:
    * Updating `package.json`
    * Updating and fixing [**old sources**](https://github.com/magayagalabs/CyCode/tree/main/old) of CyCode.
    * Updating **vanilla-typescript** and `about.md` is the official documentation of CyCode.
+
+# CyCode (v2.0.3)
+
+**CyCode** is a web-based HTML, Markdown, and WYSIWYG editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating and fixing **HTML**, **JavaScript**, **TypeScript**, and **CoffeeScript** files
+   * Updating `README.md`
+   * Updating `package.json`
+   * Updating `.gitignore` (add executable file formats, applications, and disk images)
+   * Updating **vanilla-typescript** and `about.md` is the official documentation of CyCode.

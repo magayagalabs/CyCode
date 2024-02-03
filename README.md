@@ -35,7 +35,7 @@ The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorf
 
 Several quick start options are available:
 
-* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.3.zip)
+* [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.4.zip)
 * Clone the repo:
 
   * Git: `git clone https://github.com/Magayaga/CyCode.git`
@@ -43,7 +43,7 @@ Several quick start options are available:
   * Git Bash/Linux Terminal: `unzip https://github.com/Magayaga/CyCode/archive/v2.0.3.zip`
   * Windows:
 
-    * Step 1: [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.3.zip)
+    * Step 1: [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.4.zip)
     * Step 2: Open File Explorer and find the compressed folder.
     * Step 3: To unzip the entire folder, right-click to select **Extract All**, and then follow the instructions. You can also select **Extract All** from the command ribbon.
     * Step 4: To decompress a single file or folder, double-click the compressed folder to open it. Then, drag or copy the item from the compressed folder to a new location.

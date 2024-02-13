@@ -31,7 +31,7 @@ Fix bugs and Updates:
 **CyCode** is a web-based offline code editor developed by Cyril John Magayaga.
 
 Fix bugs and Updates:
-* Updating **vanilla-typescript** was newest documentation like history or timeline:
+* Updating **vanilla-typescript** was the newest documentation like history or timeline:
    * Updating `tsconfig.json`, `index.ts`, `index.html`, `package.json`, `script.js`, and `styles.css`
    * New `logo.ico`
 * Updating `index.js`: menubar is hidden.
@@ -195,3 +195,13 @@ Fix bugs and Updates:
    * Updating `README.md`
    * Updating `package.json`
    * Updating **vanilla-typescript** and `about.md` is the official documentation of CyCode.
+
+# CyCode (v2.0.5)
+
+**CyCode** is a web-based HTML, Markdown, and WYSIWYG editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating and fixing **HTML** files
+   * Updating `README.md`
+   * Updating `package.json`
+   * Updating `about.md` is the official documentation of CyCode.

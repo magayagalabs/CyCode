@@ -17,7 +17,7 @@ The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorf
 
 | Google Chrome | Opera | Mozilla Firefox | Microsoft Edge | Apple Safari | Brave Browser | Arc Browser |
 |---------------|-------|-----------------|----------------|--------------|---------------|-------------|
-| A+            | A+    | A+ (Gecko)      | A+             | A+ (WebKit)  | A+            | TBA         |
+| A+            | A+    | A+ (Gecko)      | A+             | A+ (WebKit)  | A+            | A+          |
 
 ## Operating system supports
 

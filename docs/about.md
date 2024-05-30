@@ -204,4 +204,5 @@ Fix bugs and Updates:
    * Updating and fixing **HTML** files
    * Updating `README.md`
    * Updating `package.json`
-   * Updating `about.md` is the official documentation of CyCode.
+   * Updating **vanilla-typescript** `about.md` is the official documentation of CyCode.
+   * Checking **Arc** browser

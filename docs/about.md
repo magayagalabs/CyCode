@@ -206,3 +206,13 @@ Fix bugs and Updates:
    * Updating `package.json`
    * Updating **vanilla-typescript** `about.md` is the official documentation of CyCode.
    * Checking **Arc** browser
+
+# CyCode (v2.0.6)
+
+**CyCode** is a web-based HTML, Markdown, and WYSIWYG editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+   * Updating and fixing **HTML** files
+   * Updating `package.json`
+   * Updating **vanilla-typescript** `about.md` is the official documentation of CyCode.
+   * Deleting `FUNDING.yml` because of the old PayPal account.

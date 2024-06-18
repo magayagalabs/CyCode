@@ -10,6 +10,7 @@
         <link rel="icon" type="image/x-icon" href="./img/logo.png">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="./css/codemirror/codemirror.css">
     </head>
     <body>
         <div class="cyflex-biggest">
@@ -34,9 +35,9 @@
             </div>
             <div class="cyflex-body">
                 <div class="text-area" id="drag-left">
-                    <textarea title="HyperText Markup Language or HTML" oninput="showPreview()" placeholder="HTML" id="htmlCode"></textarea>
-                    <textarea title="Cascading Style Sheets or CSS" oninput="showPreview()" placeholder="CSS" id="cssCode"></textarea>
-                    <textarea title="JavaScript" oninput="showPreview()" placeholder="JavaScript" id="jsCode"></textarea>
+                    <textarea name="htmlCode" id="htmlCode"></textarea>
+                    <textarea name="cssCode" id="cssCode"></textarea>
+                    <textarea name="jsCode" id="jsCode"></textarea>
                 </div>
                 <div class="dragbar" id="dragbar"></div>
                 <div class="preview-area" id="drag-right">
@@ -46,6 +47,10 @@
             </div>
         </div>
         <script type="text/javascript" src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="./js/codemirror/codemirror.js"></script>
+        <script src="./js/codemirror/htmlmixed.js"></script>
+        <script src="./js/codemirror/css.js"></script>
+        <script src="./js/codemirror/javascript.js"></script>
         <script type="text/javascript" src="./js/script.js"></script>
         <script type="text/javascript" src="./js/drag.js"></script>
         <script src="./ts/console.ts"></script>

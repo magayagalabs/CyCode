@@ -18,6 +18,10 @@ document.addEventListener('DOMContentLoaded', function () {
       theme: "default"
   });
 
+  document.querySelectorAll('.CodeMirror').forEach(function(editorElement) {
+    editorElement.style.fontFamily = "'IBM Plex Mono', monospace";
+  });
+
   // Placeholder text for each editor
   var placeholders = {
       html: "<!-- Enter your HTML code here -->",

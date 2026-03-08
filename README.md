@@ -1,9 +1,7 @@
 <h1 align="center">CyCode</h1>
 <h3 align="center">"Alone, Live, and Great"</h3>
 
-<h5 align="center">CyCode (formerly known as Studios Code and the word being a portmanteau of "Cyril Code") is an HTML editor, Markdown editor, and WYSIWYG editor with a primary focus on web development.</h5>
-
-CyCode is a web-based HTML Editor, Markdown Editor, and WYSIWYG Editor, It is written in **HTML**, **CSS**, and **JavaScript**. It was created and developed on December 23, 2021, by Cyril John Magayaga. You are open the [`cycode.html`](./src/cycode.html).
+CyCode (formerly known as Studios Code and the word being a portmanteau of "Cyril Code") is an HTML editor, Markdown editor, and WYSIWYG editor with a primary focus on web development. It is written in **HTML**, **CSS**, and **JavaScript**. It was created and developed on December 23, 2021, by Cyril John Magayaga.
 
 The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
 
@@ -13,23 +11,11 @@ The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorf
 |:-:|:-:|:-:|:-:|:-:|
 | Yes | Yes | Yes | Yes | Yes |
 
-## Browser supports
-
-| Google Chrome | Opera | Mozilla Firefox | Microsoft Edge | Apple Safari | Brave Browser | Arc Browser |
-|---------------|-------|-----------------|----------------|--------------|---------------|-------------|
-| A+            | A+    | A+ (Gecko)      | A+             | A+ (WebKit)  | A+            | A+          |
-
 ## Operating system supports
 
 | Windows | Linux (Linux Distros) | macOS |
 |:-------:|:---------------------:|:-----:|
 |Yes      |Yes                    |Yes    |
-
-## Web server support
-
-| Serve | Parcel | Parcel bundler | Webpack | React scripts |
-|:-----:|:------:|:--------------:|:-------:|:-------------:|
-|Yes    |Yes     |Yes (with Docs) |No       |No             |
 
 # 😁 Quick Start
 
@@ -40,7 +26,6 @@ Several quick start options are available:
 
   * Git: `git clone https://github.com/Magayaga/CyCode.git`
   * GitHub Desktop: `gh repo clone Magayaga/CyCode`
-  * Git Bash/Linux Terminal: `unzip https://github.com/Magayaga/CyCode/archive/v2.0.5.zip`
   * Windows:
 
     * Step 1: [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.5.zip)

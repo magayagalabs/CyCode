@@ -29,7 +29,7 @@ Several quick start options are available:
   * GitHub Desktop: `gh repo clone Magayaga/CyCode`
   * Windows:
 
-    * Step 1: [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.5.zip)
+    * Step 1: [`Download the latest release`](https://github.com/Magayaga/CyCode/archive/v2.0.6.zip)
     * Step 2: Open File Explorer and find the compressed folder.
     * Step 3: To unzip the entire folder, right-click to select **Extract All**, and then follow the instructions. You can also select **Extract All** from the command ribbon.
     * Step 4: To decompress a single file or folder, double-click the compressed folder to open it. Then, drag or copy the item from the compressed folder to a new location.

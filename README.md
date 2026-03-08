@@ -3,7 +3,8 @@
 
 CyCode (formerly known as Studios Code and the word being a portmanteau of "Cyril Code") is an HTML editor, Markdown editor, and WYSIWYG editor with a primary focus on web development. It is written in **HTML**, **CSS**, and **JavaScript**. It was created and developed on December 23, 2021, by Cyril John Magayaga.
 
-The August 20, 2022 was first new **_redesign_**, **_beautiful_**, and **_colorful_** code editor in the Philippines.
+> [!WARNING]
+> **Strict No LLM / No AI Policy**. No LLMs for issues. No LLMs for pull requests. 
 
 ## Support programming, markup, and script languages
 

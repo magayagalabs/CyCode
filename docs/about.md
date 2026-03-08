@@ -216,3 +216,7 @@ Fix bugs and Updates:
    * Updating `package.json`
    * Updating **vanilla-typescript** `about.md` is the official documentation of CyCode.
    * Deleting `FUNDING.yml` because of the old PayPal account.
+
+# CyCode (v2.0.7)
+
+TBA

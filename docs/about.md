@@ -219,4 +219,10 @@ Fix bugs and Updates:
 
 # CyCode (v2.0.7)
 
-TBA
+**CyCode** is a web-based HTML, Markdown, and WYSIWYG editor developed by Cyril John Magayaga.
+
+Fix bugs and Updates:
+* Updating and fixing **JavaScript**, **HTML**, and **CSS** files
+* Deleting **old** and **Android** folder
+* Updating `package.json`
+* Updating **vanilla-typescript** and `about.md` is the official documentation of CyCode.

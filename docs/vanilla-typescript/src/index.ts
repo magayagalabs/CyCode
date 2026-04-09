@@ -1,5 +1,5 @@
 /**
- * Copyright 2022-2024 Cyril John Magayaga
+ * Copyright 2022-2024; 2026 Cyril John Magayaga
  * Cyflex (based on CyCode)
  */
 
@@ -226,6 +226,11 @@
   </div>
   <div class="row align-items-start text-light border">
     <div class="col"><b>v2.0.6 / June 7, 2024</b></div>
+    <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
+    <div class="col">Updating and fixing <b>HTML</b>. Updating official documentation of CyCode, <code>package.json</code>.</div>
+  </div>
+    <div class="row align-items-start text-light border">
+    <div class="col"><b>v2.0.7 / April 10, 2026</b></div>
     <div class="col"><b>Main Developer:</b> Cyril John Magayaga</div>
     <div class="col">Updating and fixing <b>HTML</b>. Updating official documentation of CyCode, <code>package.json</code>.</div>
   </div>
